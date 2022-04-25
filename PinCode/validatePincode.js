@@ -9,3 +9,7 @@ console.log(sampleCheck1);
 //UC2 Pincode
 let sampleCheck2 = pincodeCheck.test("A400088");
 console.log(sampleCheck2);
+
+//UC3 Pincode
+let sampleCheck3 = pincodeCheck.test("400088B");
+console.log(sampleCheck3);
