@@ -13,3 +13,7 @@ console.log(sampleCheck2);
 //UC3 Pincode
 let sampleCheck3 = pincodeCheck.test("400088B");
 console.log(sampleCheck3);
+
+//UC4 Pincode
+let sampleCheck4 = pincodeCheck1.test("400 088");
+console.log(sampleCheck4);
