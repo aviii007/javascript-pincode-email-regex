@@ -13,3 +13,8 @@ console.log(sampleCheck6);
 let emailCheck3 = RegExp('^[a-z]{3,}(.)?(@[a-z]{2,})(.([a-z]{2,}))$');
 let sampleCheck7 = emailCheck3.test("abc.@bridgelabz.co");
 console.log(sampleCheck7);
+
+//UC4 Email
+let emailCheck4 = RegExp('^[a-z]{3,}(.)([a-z_+-.]{3,})?(@[a-z]{2,})(.([a-z]{2,}))$');
+let sampleCheck8 = emailCheck4.test("abc.x_yz@bridgelabz.co");
+console.log(sampleCheck8);
